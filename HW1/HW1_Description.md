@@ -1,4 +1,5 @@
 Problem 1
+
 I strongly advise you use the R language for this homework (but word is out on Piazza that you could use Python; note I don't know if packages are available in Python). You will have a place to upload your code with the submission.
 The UC Irvine machine learning data repository hosts a famous collection of data on whether a patient has diabetes (the Pima Indians dataset), originally owned by the National Institute of Diabetes and Digestive and Kidney Diseases and donated by Vincent Sigillito. You can find this data at http://archive.ics.uci.edu/ml/datasets/Pima+Indians+Diabetes. You should look over the site and check the description of the data. In the "Data Folder" directory, the primary file you need is named "pima-indians-diabetes.data". This data has a set of attributes of patients, and a categorical variable telling whether the patient is diabetic or not. For several attributes in this data set, a value of 0 may indicate a missing value of the variable.
 Part 1A Build a simple naive Bayes classifier to classify this data set. We will use 20% of the data for evaluation and the other 80% for training. There are a total of 768 data-points.
@@ -24,6 +25,7 @@ Using the predict function in R, report the accuracy of the classifier on the he
 Hint If you are having trouble invoking svmlight from within R Studio, make sure your svmlight executable directory is added to your system path. Here are some instructions about editing your system path on various operating systems: https://www.java.com/en/download/help/path.xml You would need to restart R Studio (or possibly restart your computer) afterwards for the change to take effect.
 
 Problem 2
+
 For this assignment, you should do your coding in R once again, but you may use libraries for the algorithms themselves.
 
 The MNIST dataset is a dataset of 60,000 training and 10,000 test examples of handwritten digits, originally constructed by Yann Lecun, Corinna Cortes, and Christopher J.C. Burges. It is very widely used to check simple methods. There are 10 classes in total ("0" to "9"). This dataset has been extensively studied, and there is a history of methods and feature construc- tions at https://en.wikipedia.org/wiki/MNIST_database and at the original site, http://yann.lecun.com/exdb/mnist/ . You should notice that the best methods perform extremely well.
